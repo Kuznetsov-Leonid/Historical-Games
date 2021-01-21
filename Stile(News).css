@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-News {
+    max-width: 1920px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: 2656px;
+}
+.content7{
+    position: relative;
+    top:100px;
+    height: 300px;
+}
+.content7-text{я
+    position: absolute;
+    top: 70px;
+}
+#inline{
+    position: relative;
+    left: 0px;
+    top: 170px;
+}
+.content8{
+    position: relative;
+    top: 200px;
+}
+.mapin{
+    position: relative;
+    top: 100px;
+}

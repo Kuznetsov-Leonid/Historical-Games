@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-contactUs {
+    max-width: 1920px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: 1256px;
+    
+}
+.content8{
+    background-color: #e1e1e1;
+    width: 1920px;
+    height: 663px;
+    top: 35px;
+}
+
+.content8-text1{
+    position: relative;
+    top: 70px;
+}
+.Lorem-text{
+    color: black;
+}
+Lorem-text{
+    color: black;
+}
+.mapin{
+    position: relative;
+    top: 200px;
+}

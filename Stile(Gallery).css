@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.scrol-up1{
+    position: relative;
+    bottom: 150px;
+}
+
+.container-gallery {
+    max-width: 1920px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: 3590px;
+}
+
+.header1 {
+    margin-top: 13px;
+    border: px solid #000000;
+    width: 1920px;
+    height: 83px;
+    background-color: #000000;
+    float: left;
+    opacity: 0.7;
+}
+
+.header1 a {
+    text-decoration: none;
+}
+
+.Historical {
+    position: relative;
+    height: 40px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 22.36px;
+    letter-spacing: 0.77px;
+    line-height: normal;
+    top: 10px;
+    left: 475px;
+}
+
+
+.Games {
+    position: relative;
+    height: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 24.1px;
+    line-height: normal;
+    padding-left: 476px;
+    padding-right: 1290px;
+    top: 2px;
+}
+
+.number-phone-img {
+    position: relative;
+    top: 5px;
+    left: -9px;
+
+}
+
+.number-phone {
+    position: relative;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36px;
+    top: -27px;
+    left: 802px;
+}
+
+.email-img {
+    position: relative;
+    left: -8px;
+    top: 3px;
+}
+
+.email {
+    position: relative;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    text-align: left;
+    /* Text style for "info@examp" */
+    letter-spacing: 0.36px;
+    line-height: normal;
+    top: -52px;
+    left: 971px;
+}
+
+.d1 {
+    position: relative;
+    top: -85px;
+    left: 1238px;
+}
+
+.d1 input {
+    width: 140px;
+    height: 30px;
+    padding-left: 20px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.d1 button {
+    position: relative;
+    top: 2px;
+    right: 5px;
+    width: 40px;
+    height: 36.0px;
+    border: 3px solid #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+
+}
+
+.d1 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+
+.menu {
+    width: 580px;
+    position: relative;
+    padding-top: 128px;
+    margin-left: 650px;
+}
+
+.line1 {
+    position: relative;
+    top: 30px;
+}
+
+.menu-list {
+    align-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu-nom {
+    float: left;
+    padding: 2px 15px 0px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+}
+
+.menu-link:hover {
+    color: black;
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    height: 0xp;
+    border-bottom: 3px solid black;
+    padding: 0px 0px 30px 0px;
+}
+
+.menu-link-active {
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    letter-spacing: 0.36px;
+    border-bottom: 3px solid black;
+    padding: 0px 0px 30px 0px;
+}
+
+.menu-link-active:hover {
+    border-color: transparent;
+    color: #8c8c8c;
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+}
+
+.contentG-1 {
+    position: relative;
+    top: 28px;
+    width: 1920px;
+    height: 1600px;
+    border-top: 1px solid black;
+}
+
+.Our-Gallery {
+    position: relative;
+    width: 202px;
+    height: 37px;
+    color: #f44336;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    left: 833px;
+    top: 154px;
+}
+
+#BF1 {
+    height: 376px;
+}
+
+.content-img-bue1 {
+    position: relative;
+    left: 354px;
+    top: 250px;
+}
+
+.content-img-bue2 {
+    position: relative;
+    top: 150px;
+}
+
+.content-img-bue1 table tr td {
+    padding: 0px 30px 0px 0px;
+}
+
+.content-img-bue2 table tr td {
+    padding: 0px 30px 0px 0px;
+}
+
+.name-game1 {
+    position: relative;
+    font-family: sans-serif;
+    width: 168px;
+    height: 16px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 23.94px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.14px;
+    line-height: normal;
+    top: 20px;
+}
+
+.button-bue1 {
+    position: relative;
+    font-family: sans-serif;
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: 2px solid black;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.14px;
+    line-height: normal;
+    left: 70px;
+    top: 40px
+}
+
+
+.Show-More {
+    position: relative;
+    width: 208px;
+    height: 38px;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+    border: 1px solid #000000;
+    top: 260px;
+    left: 490px
+}
+
+.Show-More a {
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+}
+
+.Show-More p {
+    position: relative;
+    top: 10px;
+    left: -3px;
+}
+
+.arr {
+    position: relative;
+    bottom: 7px;
+    left: 80px;
+}
+
+.contentG-2 {
+    position: relative;
+    top: 28px;
+    width: 1920px;
+    height: 570px;
+    border: 1px solid black;
+}
+
+.rectWhite {
+    position: relative;
+    background-image: url(imgPng/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_26.png);
+    width: 495px;
+    height: 562px;
+    opacity: 0.98;
+    bottom: 566px;
+    left: 960px;
+
+}
+
+.contentG-2-sale0 {
+    position: relative;
+    bottom: 950px;
+    left: 100px;
+}
+
+.contentG-2-sale1 {
+    position: relative;
+}
+
+.contentG-2-sale2 {
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+}
+
+.discount {
+    position: relative;
+    text-align: left;
+    width: 91px;
+    height: 14px;
+    color: #010101;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.nameGame1 {
+    position: relative;
+    top: 10px;
+    text-align: left;
+    width: 365px;
+    height: 61px;
+    color: #f44336;
+    font-family: Myriad Pro;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.nameGame2 {
+    position: relative;
+    top: 15px;
+    text-align: left;
+    width: 365px;
+    height: 61px;
+    color: #f44336;
+    font-family: Myriad Pro;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.Much1 {
+    position: relative;
+    top: 30px;
+}
+
+haig {
+    color: #000000;
+    font-size: 62px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+
+
+}
+
+smol {
+    width: 323px;
+    height: 56px;
+    color: #8c8c8c;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+}
+
+.button-bue2 {
+    position: relative;
+    font-family: sans-serif;
+    width: 265px;
+    height: 62px;
+    background-color: #f44336;
+    border: 2px solid black;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.14px;
+    line-height: normal;
+    left: 0px;
+    top: 50px
+}
+
+.content8{
+    position: relative;
+    top: 100px;
+}
+
+.footer-gallery {
+    height: 71px;
+    width: 1920px;
+    margin: 30px auto 0;
+    background-color: #000000;
+}
+
+.footer-text {
+    position: relative;
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    top: 28px;
+    font-style: normal;
+    letter-spacing: 0.16px;
+}
